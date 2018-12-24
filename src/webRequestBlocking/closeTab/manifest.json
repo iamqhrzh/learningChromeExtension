@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "webRequestBlocking",
+  "description": "webRequestBlocking插件，截留ajax请求",
+  "version": "1.5.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Click here!"
+  },
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "permissions": [
+        "activeTab",
+        "http://*/*",
+        "https://*/*",
+        "webRequestBlocking",
+        "webRequest"
+
+  ]
+}
