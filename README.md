@@ -1,5 +1,5 @@
 # learningChromeExtension
-collect some chrome extension learning example
+collect some chrome extension learning examples
 
 ## vwebRequestBlocking   
 How to intercept ajax request, and redirect or block or mock the response.
